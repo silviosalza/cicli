@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.grid{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border: 2px black solid;
+    width: calc(100% / 10 - 4px);
+    height: 100px;
+
+    
+    justify-content: center;
+}
+
+.pari{
+    background-color: cadetblue;
+
+}
+.dispari{
+    background-color: brown;
+    color: white;
+}
